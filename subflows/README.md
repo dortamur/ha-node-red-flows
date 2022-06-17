@@ -6,7 +6,7 @@ These are reusable subflows used by other flows & examples.
 
 This is a subflow reimplementation of the `stoptimer` node, using Delay, with better support for dynamically controlling timer duration (through node config, or input attributes).
 
-TODO: Actual details of operation/use
+UPDATE: Lights Motion Control no longer requires the StopTimer+ sub-flow. I'm now using the standard Trigger node, which can be configured to work the same way as StopTimer+.
 
 ## Lights Motion Control ##
 
